@@ -1,7 +1,8 @@
 .header {
   position: relative;
   height: 100px;
-
+  display: flex;
+  justify-content: space-between;
   .header__overlay {
     position: fixed;
     top: 0;
@@ -25,10 +26,6 @@
 }
 
 .logo {
-  position: absolute;
-  top: 50%;
-  left: 0;
-  transform: translateY(-50%);
   
   .logo__link {
     font-size: 30px;
@@ -47,11 +44,6 @@
 }
 
 .main-nav {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-
   .nav-icon__close {
     display: none;
     font-size: 24px;
@@ -126,10 +118,6 @@
 }
 
 .nav-buttons {
-  position: absolute;
-  top: 50%;
-  right: 0;
-  transform: translateY(-50%);
   font-size: 21px;
   
   .nav__icon {
